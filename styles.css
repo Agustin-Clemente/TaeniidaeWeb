@@ -1,0 +1,48 @@
+body {
+            font-family: 'Inter', sans-serif;
+            background-color: #1a202c; /* Color de fondo oscuro similar al de la presentación */
+            color: #e2e8f0; /* Texto claro */
+            line-height: 1.6;
+        }
+        .section-container {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+        }
+        .section-container.is-visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .section-title {
+            font-size: 2.5rem; /* Tamaño de fuente ligeramente mayor */
+            font-weight: 700; /* Negrita */
+            color: #f472b6; /* Rosa más vibrante */
+            margin-bottom: 1.5rem; /* Espacio inferior */
+            border-bottom: 2px solid #e879f9; /* Borde inferior violeta/rosa */
+            padding-bottom: 0.75rem; /* Espacio debajo del borde */
+            text-shadow: 0 0 5px rgba(244, 114, 182, 0.5); /* Sombra de texto sutil */
+        }
+
+        .header-bg {
+            background-color: #5b21b6; /* Un púrpura más oscuro para el encabezado */
+        }
+        .accent-color {
+            color: #a78bfa; /* Un púrpura más claro para acentos */
+        }
+        .bg-section-dark {
+            background-color: #2d3748; /* Un gris azulado oscuro para secciones */
+        }
+        .bg-section-light {
+            background-color: #4a5568; /* Un gris azulado un poco más claro para secciones alternas */
+        }
+        .rounded-lg {
+            border-radius: 0.5rem;
+        }
+        /* Estilos específicos para la tabla de clasificación */
+        .classification-table th, .classification-table td {
+            padding: 0.75rem 1rem;
+            
+            vertical-align: center;
+        }
+        
